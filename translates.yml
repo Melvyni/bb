@@ -1,136 +1,133 @@
 messages:
-  not_enough_players: '&cThere are not enough players!'
-  not_enough_players_to_start: '&cThere are not enough players to start game!'
-  no_players: '&cThere must be at least 1 player to start the game !'
-  game_starts_in: '&cGame starts in %time%'
-  game_ends_in: '&c%time% left'
-  times_up: '&cTimes up !'
-  theme: '&eTheme: &b%theme%'
-  voting: '&e&lVoting'
-  build_something_relevant: '&eBuild something relevant to the theme!'
-  prepare_vote: '&7Prepare to start voting'
-  player_joined: '&aPlayer &e%player% &ahas joined. %players%'
-  player_left: '&cPlayer &e%player% &chas left. %players%'
-  arena_exists: '&cArena with that name already exists !'
-  arena_not_exists: '&cThat arena does not exists !'
-  no_permission: '&cYou dont have permission !'
-  no_selection: '&cPlease make selection first !'
-  not_in_plot: '&cYou are not in plot !'
-  plot_removed: '&aPlot successfully removed!'
-  not_in_arena: '&cYou are not in arena !'
-  already_in_arena: '&cYou are already in arena !'
-  arena_removed: '&aArena removed !'
-  arena_already_started: '&cThis arena already started !'
-  arena_full: '&cThis arena is full !'
-  floor_changed: '&aFloor successfully changed !'
-  weather_changed: '&aWeather changed to &e%weather%'
-  floor_deny_change: '&cFloor cannot be changed to this !'
-  not_played: '&cYou have not played BuildBattle yet ! Play some !'
-  voted: '&aYou rated this build as %vote% &a!'
-  vote_changed: '&aYou have changed your vote to %vote% &a!'
-  arena_ended: '&aGame has ended ! Thanks for playing !'
-  cant_build: '&cYou cant build outside of your plot !'
-  cant_leave_plot: '&cYou cant go outside of your plot !'
-  commands_not_allowed: '&cYou cant execute command while in arena ! Only BuildBattle
-    commands !'
-  no_empty_arena: '&cThere is no empty arena ! Please wait'
-  you_placed: '&8You placed &e%position% &8with &e%points% &8Points.'
-  server_reload: '&cServer is reloading ! Stopping BuildBattle...'
-  force_stop: '&aGame has been force stopped by &e%operator%&a!'
-  arena_not_running: '&cThat arena is not running !'
-  all_arenas: '&aAll arenas:'
-  cant_vote_for_your_plot: '&cYou cant vote for your plot !'
-  cant_wear_equipment: '&cHey! You can''t wear armor there!'
-  voting_ends: '&aVoting for this plot ends in &e%time%'
-  max_particles: '&cYou can have maximally %amount% particles !'
-  particle_placed: '&aParticle placed!'
-  particle_removed: '&aParticle removed!'
-  cant_place_particle: '&cYou cant place particle outside of your plot !'
-  most_points_announce: '&aNEW MOST POINTS !'
-  old_most_points: '&7Old most points: &f%old_value%'
-  new_most_points: '&eNew most points: &f%new_value%'
-  time_changed: '&aTime was changed to %time%'
-  plot_cleared: '&aPlot successfully cleared!'
-  your_position: '&e&lYour Position'
-  thanks_for_playing: '&6&oThanks for playing !'
-  biome_changed: '&aPlot biome was changed to &e%biome%'
-  cannot_set_theme: '&cCannot set theme when arena is started !'
-  report_success: '&aYou have successfully reported this build &a! Buy a cake ^^'
-  already_reported: '&cThis build has been already reported by somebody !'
-  report_failed: '&cUnfortunately you cannot report this build at this time.'
-  cant_report_yourself: '&cYou can''t report your own build !'
-  you_joined_team: '&aYou joined &eTeam %team% !'
-  you_left_team: '&cYou left &eTeam %team% !'
-  your_teammate: '&aPlayers in team: &e%players%'
-  team_is_full: '&cThis team is full !'
-  already_in_that_team: '&cYou are already in that team !'
-  theme_blacklisted: '&cThis theme is blacklisted !'
-  theme_changed: '&c&lATTENTION! &aTheme was changed to &e%theme%&a!'
-  kicked_due_vip_join: '&cYou have been kicked because &6VIP &e%player% &chas joined
-    !'
-  no_vip_slot_free: '&cThere is no VIP slot free !'
-  unable_to_join: '&cWe are unable to join you to arena ! Please contact admins to
-    check console.'
-  not_enough_super_votes: '&cYou don''t have any super votes !'
-  theme_was_super_voted: '&aPlayer &e%player% &ahas &bSuperVoted &atheme &e%theme%&a!'
+  not_enough_players: '&cBrakuje graczy!'
+  not_enough_players_to_start: '&cNie ma wystarczającej liczby graczy, aby rozpocząć grę!'
+  no_players: '&cMusi byc przynajmniej 1 gracz, by rozpocząć arenę!'
+  game_starts_in: '&cGra wystartuje za: %time%'
+  game_ends_in: '&cDo końca pozostało: %time%'
+  times_up: '&cCzas się skończył!'
+  theme: '&eMotyw: &b%theme%'
+  voting: '&e&lGłosowanie'
+  build_something_relevant: '&eZbuduj coś odnośnie motywu!'
+  prepare_vote: '&7Przygotuj się do głosowania'
+  player_joined: '&aGracz &e%player% &awłaśnie dołączył do gry.Liczba graczy: %players%'
+  player_left: '&cGracz &e%player% &cwłaśnie opuścił grę.Liczba graczy: %players%'
+  arena_exists: '&cArena o tej nazwie już istnieje!'
+  arena_not_exists: '&cTa arena nie istnieje!'
+  no_permission: '&cNie masz wymaganych permisji!'
+  no_selection: '&cWpierw dokonaj wyboru!'
+  not_in_plot: '&cNie jesteś na działce!'
+  plot_removed: '&aDziałka z powodzeniem została usunięta!'
+  not_in_arena: '&cNie jesteś na arenie!'
+  already_in_arena: '&cJesteś już na arenie!'
+  arena_removed: '&aArena removed!'
+  arena_already_started: '&cTa arena już się rozpoczęła!'
+  arena_full: '&cTa arena jest pełna!'
+  floor_changed: '&aPodłoga została pomyślnie zmieniona!'
+  weather_changed: '&aPogoda została zmieniona na: &e%weather%'
+  floor_deny_change: '&cPodłoga nie może być zmieniona!'
+  not_played: '&cNie grałeś jeszcze w BuildBattle!'
+  voted: '&aOceniłeś tę budowlę jako %vote% &a!'
+  vote_changed: '&aZmieniłeś swój głos na: %vote% &a!'
+  arena_ended: '&aGra się zakończyła! Dziękujemy za grę!'
+  cant_build: '&cNie możesz budować poza działką!'
+  cant_leave_plot: '&cNie możesz wyjść poza działkę!'
+  commands_not_allowed: '&cNie możesz wykonać tej komendy na arenie!'
+  no_empty_arena: '&cNie ma pustej areny! Zaczekaj'
+  you_placed: '&8Położyłeś &e%position% &8z &e%points% &8punktów.'
+  server_reload: '&cRestartowanie serwera ! Zatrzymywanie BuildBattle...'
+  force_stop: '&aGra została zatrzymana przez &e%operator%&a!'
+  arena_not_running: '&cTa arena nie wystartowała!'
+  all_arenas: '&aWszystkie areny:'
+  cant_vote_for_your_plot: '&cNie możesz zagłosować na swoją działkę!'
+  cant_wear_equipment: '&cNie możesz założyć na siebie zbroi!'
+  voting_ends: '&aGłosowanie na tą działkę zakończy się za: &e%time%'
+  max_particles: '&cMożesz użyc maksymalnie %amount% efektów !'
+  particle_placed: '&aEfekt został dodany!'
+  particle_removed: '&aEfekt został usunięty!'
+  cant_place_particle: '&cNie możesz dodawać efektów poza działką!'
+  most_points_announce: '&aRekord ilość punktów!'
+  old_most_points: '&7Poprzedni rekord punktów: &f%old_value%'
+  new_most_points: '&eNowy rekord punktów: &f%new_value%'
+  time_changed: '&aCzas został zmieniony na: %time%'
+  plot_cleared: '&aDziałka pomyślnie została wyczyszczona!'
+  your_position: '&e&lTwoja pozycja'
+  thanks_for_playing: '&6&oDziękujemy za grę!'
+  biome_changed: '&aBiom na działce został zmieniony na: &e%biome%'
+  cannot_set_theme: '&cNie można zmienić Motywu, jeżeli arena wystartowała!'
+  report_success: '&aPomyślnie zreportowałeś budowlę! &aDziekujemy!'
+  already_reported: '&cTa budowla została przez kogoś zgłoszona!'
+  report_failed: '&cNiestety nie można w tej chwili zgłosić tej budowy.'
+  cant_report_yourself: '&cNie możesz zgłosić własnej budowli!'
+  you_joined_team: '&aDołączyłeś do &eDrużyny: %team% !'
+  you_left_team: '&cOpuściłeś &eDrużynę: %team% !'
+  your_teammate: '&aGracze w drużynie: &e%players%'
+  team_is_full: '&cTa drużyna jest pełna!'
+  already_in_that_team: '&cJesteś już w tej drużynie!'
+  theme_blacklisted: '&cTen motyw jest na czarnej liście!'
+  theme_changed: '&c&lUwaga! &aMotyw został zmieniony na: &e%theme%&a!'
+  kicked_due_vip_join: '&cZostałeś wyrzucony z areny ze względu iż &6VIP &e%player% &cdołączył do gry!'
+  no_vip_slot_free: '&cWszystkie sloty VIP są zajęte!'
+  unable_to_join: '&cNie jesteśmy w stanie dołączyć do was na arenę! Skontaktuj się z administracją.'
+  not_enough_super_votes: '&cNie masz żadnych super głosów!'
+  theme_was_super_voted: '&aGracz &e%player% &aużył &bSuper głosu &atheme &e%theme%&a!'
   start_message:
   - ' '
-  - '&f&lBuildBattlePro'
+  - '&f&lBuildBattle'
+  - '&6&lLecraft.pl'
   - ' '
-  - '&e&lTheme: &f&l%theme%'
-  - '&e&lWhen build time is over,'
-  - '&e&lyou will be able to vote for each plot !'
+  - '&e&lMotyw: &f&l%theme%'
+  - '&e&lKiedy skończy się czas na budowanie,'
+  - '&e&lbędziesz mógł zagłosować na działki innych graczy!'
   - ' '
   end_message:
   - '&a&l----------------------------------------------------------------'
   - ' '
-  - '&f&lBuildBattlePro'
-  - '&e&l%position%&8- &6 %points% points'
+  - '&f&lBuildBattle'
+  - '&6&lLecraft.pl'
   - ' '
-  - '&e&lYour Position'
-  - '&7%player_position% &8- &6%player_points% points'
+  - '&e&l%position%&8- &6 %points% punktów'
   - ' '
-  - '&6&oThanks for playing !'
+  - '&e&lTwoje miejsce'
+  - '&7%player_position% &8- &6%player_points% punktów'
+  - ' '
+  - '&6&oDziękujemy za grę!'
   - ' '
   - '&a&l----------------------------------------------------------------'
   line_spacer: '&a&l----------------------------------------------------------------'
-  party_join: '&7You have joined &e%creator%''s &7party!'
-  party_leave: '&7You have left &e%creator%''s &7party!'
-  party_invite: '&7You have invited player &e%player% &7to join your party!'
-  party_already_invited: '&e%player% &chas already pending invite!'
-  party_invite_expired: '&7Your invitation to join &e%creator%''s party &7has expired!'
-  party_created: '&7Your party has been created !'
-  party_disband: '&cYour party has been disbanded.'
-  party_already_in_party: '&cPlayer &e%player% &cis already in party !'
-  party_create_failed: '&cTo create new party, please leave your current!'
-  party_no_pending_invites: '&cYou have no pending invites to join someones party
-    !'
-  party_invite_decline: '&7You have declined invite for &e%creator%''s &7party.'
-  party_not_in_party: '&cYou are not in party !'
-  party_invalid_usage: '&cInvalid usage ! Use /bb party invite <player>'
-  party_player_not_online: '&cThat player is not online !'
-  party_not_allowed_to_invite: '&cOnly leader of party can invite members !'
-  party_player_joined: '&7Player &e%player% &7has joined your party.'
-  party_player_left: '&7Player &e%player% &7has left your party.'
-  party_arena_full: '&7There is no space for your party in that arena !'
-  party_you_have_been_invited: '&7You have been invited to join &e%creator%''s &7party
-    !'
-  party_accept_info: '&7>> &e/bb party accept - &aTo accept invite &7<<'
-  party_decline_info: '&7>> &e/bb party decline - &cTo decline invite &7<<'
-  party_not_allowed: '&cParties are not allowed on this server!'
-  party_full: '&cYour party is full !'
-  party_cant_invite_yourself: '&cYou can''t invite yourself !'
-  already_spectating: '&cYou are already spectating this arena!'
-  spectating_arena: '&aYou are now spectating arena &e%arena%!'
-  first_leave_arena_to_spectate: '&cPlease first leave your current arena in order
-    to spectate!'
-  no_longer_spectating: '&aYou left the spectator mode.'
-  not_spectating: '&cYou are not spectating this arena!'
-  arena_no_lobby: '&cThis arena does not have lobby set up!'
-  block_restricted: '&cThis block is forbidden!'
-  command_help_title_admin: '&6✪ &e&lBuildBattlePro &6✪ &8- &6Admin Commands'
-  command_help_title_player: '&6✪ &e&lBuildBattlePro &6✪ &8- &6Player Commands'
-  command_help_arguments: '&b[] &8- &7Optional argument &b<> &8- &7Required argument'
+  party_join: '&7Dołączyłeś do &e%creator%''s &7party!'
+  party_leave: '&7Opuściłeś &e%creator%''s &7party!'
+  party_invite: '&7Zaprosiłeś gracza &e%player% &7by dołączył do twojego party!'
+  party_already_invited: '&e%player% &cotrzymał już zaproszenie!'
+  party_invite_expired: '&7Twoje zaproszenie do &e%creator%''s party &7wygasło!'
+  party_created: '&7Twoje party zostało utworzone!'
+  party_disband: '&cTwoje party zostało rozwiązane.'
+  party_already_in_party: '&cGracz &e%player% &cjest już w party!'
+  party_create_failed: '&cBy stworzyć nowe party, opuść aktualne!'
+  party_no_pending_invites: '&cNie masz żadnych zaproszeń, by dołączyć do party!'
+  party_invite_decline: '&7Odmówiłeś dołączenia do party gracza:&e%creator%.'
+  party_not_in_party: '&cNie jesteś w party!'
+  party_invalid_usage: '&cNiepoprawne użycie! Użyj /bb party invite <player>'
+  party_player_not_online: '&cTen gracz nie jest online!'
+  party_not_allowed_to_invite: '&cTylko właściciel party może zapraszać!'
+  party_player_joined: '&7Gracz &e%player% &7dołączył do twojego party.'
+  party_player_left: '&7Gracz &e%player% &7opuścił twoje party.'
+  party_arena_full: '&7Na tej arenie nie ma miejsca dla twojego party!'
+  party_you_have_been_invited: '&7Zostałeś zaproszony by dołączyć do party gracza &e%creator%!'
+  party_accept_info: '&7>> &e/bb party accept - &aBy zaakceptować party &7<<'
+  party_decline_info: '&7>> &e/bb party decline - &cBy odrzucić zaproszenie do party&7<<'
+  party_not_allowed: '&cParty nie jest dozwolone na tym serwerze!'
+  party_full: '&cTwoje party jest pełne!'
+  party_cant_invite_yourself: '&cNie możesz siebie zaprosić do party!'
+  already_spectating: '&cAktualnie obserwujesz tą arene!'
+  spectating_arena: '&aTeraz obserwujesz arene o nazwie: &e%arena%!'
+  first_leave_arena_to_spectate: '&cNajpierw opuść swoją aktualną arene by obserwować inną!'
+  no_longer_spectating: '&aOpuściłeś tryb obserwatora'
+  not_spectating: '&cNie obserwujesz tej areny!'
+  arena_no_lobby: '&cTa arena nie ma ustawionego lobby!'
+  block_restricted: '&cTen blok jest zablokowany!'
+  command_help_title_admin: '&6✪ &e&lBuildBattle &6✪ &8- &6Admin Commands'
+  command_help_title_player: '&6✪ &e&lBuildBattle &6✪ &8- &6Komendy Gracza'
+  command_help_arguments: '&b[] &8- &7Opcjonalny argument &b<> &8- &7Wymagany argument'
 ordinals:
   st: st
   nd: nd
@@ -138,198 +135,198 @@ ordinals:
   th: th
 leaderboards:
   wins:
-    title: '&bLifetime Wins'
+    title: '&bWygrane'
     format: '&e%position% &7%player% - &e%wins%'
   played:
-    title: '&bLifetime Played'
+    title: '&bRozegranych gier'
     format: '&e%position% &7%player% - &e%played%'
   blocks_placed:
-    title: '&bLifetime Blocks Placed'
+    title: '&bPostawionych bloków'
     format: '&e%position% &7%player% - &e%blocks_placed%'
   particles_placed:
-    title: '&bLifetime Particles Placed'
+    title: '&bPostawionych efektów'
     format: '&e%position% &7%player% - &e%particles_placed%'
 scoreboard:
-  waiting: Waiting...
-  solo_mode: Solo Mode
-  team_mode: Team Mode
-  no_teammates: '&7&oNo Teammates'
+  waiting: Oczekiwanie...
+  solo_mode: Tryb jednoosobowy
+  team_mode: Tryb drużynowy
+  no_teammates: '&7&oTryb nie drużynowy'
   solo:
     lobby:
       title: '&e&lBuildBattle'
       lines:
       - '&7%gamemode%'
       - '&c'
-      - '&fPlayers: &a%current_players%'
+      - '&fLiczba graczy: &a%current_players%'
       - '&b'
-      - '&fStarting in: &a%time%'
+      - '&fStartuje za: &a%time%'
       - '&a'
-      - '&eyour-server.net'
+      - '&eLecraft.pl'
     ingame:
       title: '&e&lBuildBattle'
       lines:
       - '&7%gamemode%'
       - '&a'
-      - '&fTime Left'
+      - '&fPozostało czasu:'
       - '%timeleft%'
       - '&b'
-      - '&fTheme'
+      - '&fMotyw:'
       - '&a%theme%'
       - '&c'
-      - '&fPlayers: &a%current_players%'
+      - '&fGraczy: &a%current_players%'
       - '&d'
-      - '&eyour-server.net'
+      - '&eLecraft.pl'
     theme-voting:
       title: '&e&lBuildBattle'
       lines:
       - '&7%gamemode%'
       - '&a'
-      - '&fTime Left'
+      - '&fPozostało czasu:'
       - '%timeleft%'
       - '&b'
-      - '&fTheme'
+      - '&fMotyw:'
       - '&a%theme%'
       - '&c'
-      - '&fPlayers: &a%current_players%'
+      - '&fGraczy: &a%current_players%'
       - '&d'
-      - '&eyour-server.net'
+      - '&eLecraft.pl'
     voting:
       title: '&e&lBuildBattle'
       lines:
       - '&7%gamemode%'
       - '&a'
-      - '&fTheme'
+      - '&fMotyw:'
       - '&a%theme%'
       - '&b'
-      - '&fBuilder'
+      - '&fBudowniczy:'
       - '&a%builders%'
       - '&c'
-      - '&fYour vote'
+      - '&fTwój głos'
       - '%player_vote%'
       - '&d'
-      - '&eyour-server.net'
+      - '&eLecraft.pl'
     ending:
       title: '&e&lBuildBattle'
       lines:
       - '&7%gamemode%'
       - '&a'
-      - '&fWinner'
+      - '&fZwycięzcy'
       - '&a%winners%'
       - '&b'
-      - '&fThanks for playing !'
+      - '&fDziękujemy za grę!'
       - '&c'
-      - '&eyour-server.net'
+      - '&eLecraft.pl'
   team:
     lobby:
       title: '&e&lBuildBattle'
       lines:
       - '&7%gamemode%'
       - '&c'
-      - '&fPlayers: &a%current_players%'
+      - '&fGraczy: &a%current_players%'
       - '&b'
-      - '&fStarting in: &a%time%'
+      - '&fStartuje za: &a%time%'
       - '&a'
-      - '&eyour-server.net'
+      - '&eLecraft.pl'
     ingame:
       title: '&e&lBuildBattle'
       lines:
       - '&7%gamemode%'
       - '&a'
-      - '&fTime Left'
+      - '&fPozostało czasu:'
       - '%timeleft%'
       - '&b'
-      - '&fTheme'
+      - '&fMotyw:'
       - '&a%theme%'
       - '&c'
-      - '&fTeams: &a%current_teams%'
+      - '&fDrużyna: &a%current_teams%'
       - '&d'
-      - '&fTeammates:'
+      - '&fCzłonkowie drużyny:'
       - '&a%player_teammates%'
       - '&e'
-      - '&eyour-server.net'
+      - '&eLecraft.pl'
     theme-voting:
       title: '&e&lBuildBattle'
       lines:
       - '&7%gamemode%'
       - '&a'
-      - '&fTime Left'
+      - '&fPozostało czasu:'
       - '%timeleft%'
       - '&b'
-      - '&fTheme'
+      - '&fMotyw:'
       - '&a%theme%'
       - '&c'
-      - '&fTeams: &a%current_teams%'
+      - '&fDrużyny: &a%current_teams%'
       - '&d'
-      - '&fTeammates:'
+      - '&fCzłonkowie drużyny:'
       - '&a%player_teammates%'
       - '&e'
-      - '&eyour-server.net'
+      - '&eLecraft.pl'
     voting:
       title: '&e&lBuildBattle'
       lines:
       - '&7%gamemode%'
       - '&a'
-      - '&fTheme'
+      - '&fMotyw:'
       - '&a%theme%'
       - '&b'
-      - '&fBuilders'
+      - '&fBudowniczy:'
       - '&a%builders%'
       - '&c'
-      - '&fYour vote'
+      - '&fTwój głos'
       - '%player_vote%'
       - '&d'
-      - '&eyour-server.net'
+      - '&eLecraft.pl'
     ending:
       title: '&e&lBuildBattle'
       lines:
       - '&7%gamemode%'
       - '&a'
-      - '&fWinners'
+      - '&fZwycięzcy'
       - '&a%winners%'
       - '&b'
-      - '&fThanks for playing !'
+      - '&fDziękujemy za grę!'
       - '&c'
-      - '&eyour-server.net'
+      - '&eLecraft.pl'
   main-lobby:
-    title: '&e&lBuildBattlePro'
-    played: '&fYour Played: &e%played%'
-    wins: '&fYour Wins: &e%wins%'
-    most_points: '&fMost Points: &e%most_points%'
-    blocks_placed: '&fTotal Blocks Placed: &e%blocks%'
-    particles_placed: '&fTotal Particles Placed: &e%particles%'
-    super_votes: '&fSuper Votes: &e%super_votes%'
-    server: '&eyour-server.net'
+    title: '&e&lBuildBattle'
+    played: '&fLRozegranych: &e%played%'
+    wins: '&fWygranych: &e%wins%'
+    most_points: '&fNajwięcej zdobytych punktów: &e%most_points%'
+    blocks_placed: '&fPostawionych bloków: &e%blocks%'
+    particles_placed: '&fPostawionych efektów: &e%particles%'
+    super_votes: '&fSuper Głosów: &e%super_votes%'
+      - '&eLecraft.pl'
 stats:
-  title: '&e&lBuildBattlePro Stats'
-  played: '&aPlayed: &e%played%'
-  wins: '&aWins: &e%wins%'
-  most_points: '&aMost Points: &e%most_points%'
-  blocks_placed: '&aBlocks Placed: &e%blocks%'
-  particles_placed: '&aParticles Placed: &e%particles%'
-  super_votes: '&aSuper Votes: &e%super_votes%'
+  title: '&e&lStatystyki BuildBattle'
+  played: '&aRozegranych: &e%played%'
+  wins: '&aWygranych: &e%wins%'
+  most_points: '&aNajwięcej zdobytych punktów: &e%most_points%'
+  blocks_placed: '&aPostawionych bloków: &e%blocks%'
+  particles_placed: '&aPostawionych efektów: &e%particles%'
+    super_votes: '&fSuper Głosów: &e%super_votes%'
 voting:
-  none: '&f&oNONE'
-  very_bad: '&4VERY BAD'
-  bad: '&cBAD'
-  ok: '&eOK'
-  nice: '&aNICE'
-  epic: '&5EPIC'
-  legendary: '&6LEGENDARY'
-  builder: '&eBuilder:'
-  builders: '&eBuilders:'
+  none: '&f&oŻadny'
+  very_bad: '&4Bardzo słabe'
+  bad: '&cSłabe'
+  ok: '&eOkej'
+  nice: '&aDobre'
+  epic: '&5Epickie'
+  legendary: '&6Legendarne'
+  builder: '&eBudowniczy:'
+  builders: '&eBudowniczy:'
 motd:
-  lobby: '&e&lBuildBattle - &aLOBBY'
-  ingame: '&e&lBuildBattle - &cIN-GAME'
-  voting: '&e&lBuildBattle - &cVOTING'
-  ending: '&e&lBuildBattle - &4ENDING'
+  lobby: '&e&lBuildBattle - &aLobby'
+  ingame: '&e&lBuildBattle - &cW grze'
+  voting: '&e&lBuildBattle - &cGłosowanie'
+  ending: '&e&lBuildBattle - &4Kończenie'
 gamestate:
   lobby: '&aLobby'
-  theme_voting: '&eTheme-Voting'
-  ingame: '&eIn-Game'
-  voting: '&eVoting'
-  ending: '&cEnding'
+  theme_voting: '&eGłosowanie-na-Motyw'
+  ingame: '&eW-grze'
+  voting: '&eGłosowanie'
+  ending: '&cKończenie'
 change_floor_npc:
-  name: BuildBattle - Change Floor
+  name: BuildBattle - Zmień podłoge
 signs:
   join:
     first_line: '&7[&bBuildBattle&7]'
@@ -338,334 +335,334 @@ signs:
     fourth_line: '%players%'
   auto-join:
     first_line: '&7[&bBuildBattle&7]'
-    second_line: '&7Right-Click to'
-    third_line: '&aAUTO-JOIN'
+    second_line: '&7Kliknij prawym przyciskiem myszy, aby'
+    third_line: '&aAutomatyczne-Dołączanie'
     fourth_line: ''
   auto-join-solo:
     first_line: '&7[&bBuildBattle&7]'
-    second_line: '&7Right-Click to'
-    third_line: '&aAUTO-JOIN'
-    fourth_line: '&eSOLO'
+    second_line: '&7Kliknij prawym przyciskiem myszy, aby'
+    third_line: '&aAutomatycznie-Dołączyć'
+    fourth_line: '&eJednoosobowy'
   auto-join-team:
     first_line: '&7[&bBuildBattle&7]'
-    second_line: '&7Right-Click to'
-    third_line: '&aAUTO-JOIN'
-    fourth_line: '&eTEAM'
+    second_line: '&7Kliknij prawym przyciskiem myszy, aby'
+    third_line: '&aAutomatycznie-Dołączyć'
+    fourth_line: '&eDrużynowy'
   spectate:
     first_line: '&7[&bBuildBattle&7]'
-    second_line: '&7Right-Click to'
-    third_line: '&aSpectate'
+    second_line: '&7Kliknij prawym przyciskiem myszy, aby'
+    third_line: '&aObserwować arene:'
     fourth_line: '&e%arena%'
 time:
-  seconds: Seconds
-  minutes: Minutes
-  hours: Hours
-  days: Days
-  years: Years
-  second: Second
-  minute: Minute
-  hour: Hour
-  day: Day
-  year: Year
+  seconds: Sekundy
+  minutes: Minuty
+  hours: Godziny
+  days: Dni
+  years: Lata
+  second: Sekunda
+  minute: Minuta
+  hour: Godzina
+  day: Dzień
+  year: Rok
 gui:
   banner_creator:
     items:
       final_banner:
-        displayname: '&aFinal Banner'
+        displayname: '&aBanner końcowy'
         lore:
-        - '&7Click here to take this banner !'
+        - '&7Naciśnij tutaj by wziąć ten baner!'
   arena_list:
-    title: BuildBattle - All Arenas
-    solo_title: BuildBattle - Solo Arenas
-    team_title: BuildBattle - Team Arenas
+    title: BuildBattle - Wszystkie areny
+    solo_title: BuildBattle - Areny jednoosobowe
+    team_title: BuildBattle - Areny drużynowe
     status: '&eStatus: %status%'
-    mode: '&eMode: %mode%'
-    players: '&ePlayers: %total_players%'
-    join: '&a&oClick to join !'
+    mode: '&eTryb: %mode%'
+    players: '&eGraczy: %total_players%'
+    join: '&a&oNaciśnij by dołączyć!'
   theme_voting:
-    title: 'Poll: What Theme?'
+    title: 'Ankieta: Jaki motyw?'
     supervote_item:
-      displayname: '&bSuper Vote !'
+      displayname: '&bSuper głos!'
       lore:
-      - '&7You have &b%supervotes% super votes.'
+      - '&7Posiadasz aktualnie &b%supervotes% super głosów.'
       - ''
-      - '&eClick to super vote &b%theme%&e!'
+      - '&eKliknij aby, użyć super głosu &b%theme%&e!'
     themes:
-      displayname: '&6What Theme?'
+      displayname: '&6Ankieta: Jaki motyw?'
       lore:
-      - '&7Question: What Theme?'
-      - '&7Answer: &b%theme%'
+      - '&7Pytanie: Jaki motyw?'
+      - '&7Odpowiedź: &b%theme%'
       - ''
-      - '&7Time Left: &c%time_left%s'
-      - '&7Current Votes: &e%theme_percentage%%'
+      - '&7Czasu do końca: &c%time_left%s'
+      - '&7Aktualna liczba głosów: &e%theme_percentage%%'
   options:
-    title: BuildBattle - Plot Options
+    title: BuildBattle - Opcje działki
     items:
       heads_item:
-        displayname: '&aHeads'
+        displayname: '&aGłowy'
         lore:
-        - '&7Improve design of your build'
-        - '&7by fancy heads!'
+        - '&7Aby poprawić projekt swojej budowli'
+        - '&7przez ciekawe głowy!'
       change_floor_item:
-        displayname: '&aChange Floor'
+        displayname: '&aZmiana podłogi'
         lore:
-        - '&7Drag and drop item here to change floor.'
+        - '&7Przeciągnij i upuść blok by zmienić podłogę.'
       time_item:
-        displayname: '&aTime'
+        displayname: '&aCzas'
         lore:
-        - '&7Click to setup time of your plot !'
+        - '&7Naciśnij by zmienić pore dnia na działce!'
       change_weather_item:
-        displayname: '&aChange Weather'
+        displayname: '&aZmień pogodę'
         lore:
-        - '&7Click to change weather.'
-        - '&eCurrent: %weather%'
+        - '&7Kliknij by zmienić pogodę na działce.'
+        - '&eAktualna: %weather%'
       particles_item:
-        displayname: '&aParticles'
+        displayname: '&aEfekty'
         lore:
-        - '&7Click to select from fancy particles !'
+        - '&7Kliknij, aby wybrać efekt!'
       particle_list_item:
-        displayname: '&aParticle List'
+        displayname: '&aLista efektów'
         lore:
-        - '&7Remove particles from your plot'
+        - '&7Usuń efekty z twojej działki'
       clear_plot_item:
-        displayname: '&c&lClear Plot'
+        displayname: '&c&lWyczyść działkę'
         lore:
-        - '&4Warning!'
-        - '&eBy clicking on this item,'
-        - '&eyour plot instantly resets!'
+        - '&4Uwaga!'
+        - '&eKlikając ten item,'
+        - '&etwoja działka zostanie natychmiastowo wyczyszczona!'
       change_biome_item:
-        displayname: '&aChange biome'
+        displayname: '&aZmień biom'
         lore:
-        - '&7Click to adjust biome of your plot'
+        - '&7Kliknij by zmienić biom na twojej działce'
       banner_creator_item:
-        displayname: '&aBanner Creator'
+        displayname: '&aKreator Banerów'
         lore:
-        - '&7Create a custom banner !'
+        - '&7Stwórz niestandardowy baner!'
   colors:
-    title: '&8Banner Builder'
+    title: '&8Baner Budowniczego'
   patterns:
-    title: '&8Add layer'
+    title: '&8Dodaj warstwe'
   particles:
-    title: BuildBattle - Particles
+    title: BuildBattle - Efekty
   particle_list:
-    title: BuildBattle - Active Particles
+    title: BuildBattle - Aktywne Efekty
     items:
-      location: '&eLocation:'
-      click_to_remove: '&eClick to remove!'
+      location: '&ePozycja:'
+      click_to_remove: '&eKliknij by usunąć!'
   biomes:
-    title: BuildBattle - Biomes
+    title: BuildBattle - Biomy
     items:
       plains:
-        displayname: '&aPlains'
+        displayname: '&aRówniny'
         lore:
-        - '&7Click to set biome to Plains'
+        - '&7Kliknij by ustawić biom: Równin'
       mesa:
         displayname: '&aMesa'
         lore:
-        - '&7Click to set biome to Mesa'
+        - '&7Kliknij by ustawić biom: Messy'
       ocean:
         displayname: '&aOcean'
         lore:
-        - '&7Click to set biome to Ocean'
+        - '&7Kliknij by ustawić biom: Oceaniczny'
       desert:
-        displayname: '&aDesert'
+        displayname: '&aPustynia'
         lore:
-        - '&7Click to set biome to Desert'
+        - '&7Kliknij by ustawić biom: Pustynnny'
       forest:
-        displayname: '&aForest'
+        displayname: '&aLas'
         lore:
-        - '&7Click to set biome to Forest'
+        - '&7Kliknij by ustawić biom: Leśny'
       jungle:
         displayname: '&aJungle'
         lore:
-        - '&7Click to set biome to Jungle'
+        - '&7Kliknij by ustawić biom: Junglowy'
       swamp:
-        displayname: '&aSwamp'
+        displayname: '&aBagna'
         lore:
-        - '&7Click to set biome to Swamp'
+        - '&7Kliknij by ustawić biom: Bagienny'
       savanna:
         displayname: '&aSavanna'
         lore:
-        - '&7Click to set biome to Savanna'
+        - '&7Kliknij by ustawić biom: Savanny'
       beach:
-        displayname: '&aBeach'
+        displayname: '&aPlaża'
         lore:
-        - '&7Click to set biome to Beach'
+        - '&7Kliknij by ustawić biom: Plaży'
       ice_spikes:
-        displayname: '&aIce Spikes'
+        displayname: '&aLodowe Kolce'
         lore:
-        - '&7Click to set biome to Ice Spikes'
+        - '&7Kliknij by ustawić biom: Lodowych kolców'
       nether:
         displayname: '&aNether'
         lore:
-        - '&7Click to set biome to Nether'
+        - '&7Kliknij by ustawić biom: Netherowy'
       the_end:
-        displayname: '&aThe End'
+        displayname: '&aKres'
         lore:
-        - '&7Click to set biome to The End'
+        - '&7Kliknij by ustawić biom: Kresu'
       mountains:
-        displayname: '&aMountains'
+        displayname: '&aGóry'
         lore:
-        - '&7Click to set biome to Mountains'
+        - '&7Kliknij by ustawić biom: Górski'
       taiga:
-        displayname: '&aTaiga'
+        displayname: '&aTajga'
         lore:
-        - '&7Click to set biome to Taiga'
+        - '&7Kliknij by ustawić biom: Tajgi'
       river:
-        displayname: '&aRiver'
+        displayname: '&aRzeka'
         lore:
-        - '&7Click to set biome to River'
+        - '&7Kliknij by ustawić biom: Rzek'
       mushroom:
-        displayname: '&aMushroom'
+        displayname: '&aGrzybowy'
         lore:
-        - '&7Click to set biome to Mushroom'
+        - '&7Kliknij by ustawić biom: Grzybowy'
       warm_ocean:
-        displayname: '&aWarm Ocean'
+        displayname: '&aCiepły Ocean'
         lore:
-        - '&7Click to set biome to Warn Ocean'
+        - '&7Kliknij by ustawić biom: Ciepły Ocean'
   time:
-    title: BuildBattle - Time
+    title: BuildBattle - Pory dnia
     items:
       morning:
-        displayname: '&a06:00 AM'
+        displayname: '&a06:00'
         lore:
-        - '&7Click to set time to 06:00 AM'
+        - '&7Kliknij by ustawić pore dnia na godzinę : 06:00'
       mid_morning:
-        displayname: '&a09:00 AM'
+        displayname: '&a09:00'
         lore:
-        - '&7Click to set time to 09:00 AM'
+        - '&7Kliknij by ustawić pore dnia na godzinę : 09:00'
       noon:
-        displayname: '&a12:00 AM'
+        displayname: '&a12:00'
         lore:
-        - '&7Click to set time to 12:00 AM'
+        - '&7Kliknij by ustawić pore dnia na godzinę : 12:00'
       afternoon:
-        displayname: '&a03:00 PM'
+        displayname: '&a15:00'
         lore:
-        - '&7Click to set time to 06:00 PM'
+        - '&7Kliknij by ustawić pore dnia na: 15:00'
       evening:
-        displayname: '&a06:00 PM'
+        displayname: '&a18:00'
         lore:
-        - '&7Click to set time to 06:00 PM'
+        - '&7Kliknij by ustawić pore dnia na godzinę : 18:00'
       night:
-        displayname: '&a09:00 PM'
+        displayname: '&a21:00'
         lore:
-        - '&7Click to set time to 09:00 PM'
+        - '&7Kliknij by ustawić pore dnia na godzinę : 21:00'
       midnight:
-        displayname: '&a12:00 PM'
+        displayname: '&a24:00'
         lore:
-        - '&7Click to set time to 12:00 PM'
+        - '&7Kliknij by ustawić pore dnia na godzinę : 24:00'
       after_midnight:
-        displayname: '&a03:00 AM'
+        displayname: '&a03:00'
         lore:
-        - '&7Click to set time to 03:00 AM'
+        - '&7Kliknij by ustawić pore dnia na godzinę : 03:00'
   heads:
-    title: BuildBattle - Heads
+    title: BuildBattle - Głowy
     items:
-      previous_page: Previous Page
-      next_page: Next Page
-      main_page: Back to Main Page
+      previous_page: Poprzednia strona
+      next_page: Następna strona
+      main_page: Powrót do strony głównej
   teams:
-    title: Select your team!
+    title: Wybierz drużyne!
     items:
-      displayname: Team %id%
-      nobody: '&7&oNobody'
+      displayname: Drużyna %id%
+      nobody: '&7&oNikt'
 items:
   back_item:
-    displayname: '&cBack'
+    displayname: '&cPowrót'
     lore:
-    - '&7Back to options'
+    - '&7Powrót do opcji'
   leave_item:
-    displayname: '&cLeave BuildBattle'
+    displayname: '&cOpuść BuildBattle'
     lore:
-    - '&7Right-Click to leave BuildBattle.'
+    - '&7Kliknij prawym przyciskiem myszy by opuścić BuildBattle.'
   report_item:
-    displayname: '&c&lReport this build'
+    displayname: '&c&lZgłoś tą budowlę'
     lore:
-    - '&7Click to report this build'
+    - '&7Kliknij by zgłosić tą budowlę'
     - ''
-    - '&4Warning!'
-    - '&7Abuse of reports may lead to punishment!'
+    - '&4Uwaga!'
+    - '&7Spamowanie zgłoszeniami może poskutkować ukaraniem ciebie!'
   options_item:
-    displayname: '&aOptions &8(Right Click)'
+    displayname: '&aOpcje &8(Prawy przycisk myszy)'
     lore:
-    - '&7Click to show build options'
+    - '&7Kliknij by wyświetlić opcje budowli'
   teams_item:
-    displayname: '&aTeam Selector &8(Right Click)'
+    displayname: '&aWybór drużyny&8(Prawy przycisk myszy)'
     lore:
-    - '&7Click to select your team !'
+    - '&7Kliknij by wybrać drużynę!'
 particles:
   heart:
-    displayname: '&aHeart particle'
+    displayname: '&aEfekt Serduszek'
     lore:
-    - '&7Right-Click to place.'
+    - '&7Prawy przycisk myszy by postawić.'
   happy:
-    displayname: '&aHappy particle'
+    displayname: '&aEfekt Happy'
     lore:
-    - '&7Right-Click to place.'
+    - '&7Prawy przycisk myszy by postawić.'
   angry:
-    displayname: '&aAngry particle'
+    displayname: '&aEfekt Angry'
     lore:
-    - '&7Right-Click to place.'
+    - '&7Prawy przycisk myszy by postawić.'
   drip_lava:
-    displayname: '&aDrip Lava particle'
+    displayname: '&aEfekt Kapiącej lavy'
     lore:
-    - '&7Right-Click to place.'
+    - '&7Prawy przycisk myszy by postawić.'
   drip_water:
-    displayname: '&aDrip Water particle'
+    displayname: '&aEfekt Kapiącej wody'
     lore:
-    - '&7Right-Click to place.'
+    - '&7Prawy przycisk myszy by postawić.'
   note:
-    displayname: '&aNote particle'
+    displayname: '&aEfekt Bloku dźwiękowego'
     lore:
-    - '&7Right-Click to place.'
+    - '&7Prawy przycisk myszy by postawić.'
   glyph:
-    displayname: '&aGlyph particle'
+    displayname: '&aEfekt Glyph'
     lore:
-    - '&7Right-Click to place.'
+    - '&7Prawy przycisk myszy by postawić.'
   slime:
-    displayname: '&aSlime particle'
+    displayname: '&aEfekt Slime'a'
     lore:
-    - '&7Right-Click to place.'
+    - '&7Prawy przycisk myszy by postawić.'
   mob_spawner:
-    displayname: '&aMobspawner particle'
+    displayname: '&aEfekt Mobspawnera'
     lore:
-    - '&7Right-Click to place.'
+    - '&7Prawy przycisk myszy by postawić.'
   explosion:
-    displayname: '&aExplosion particle'
+    displayname: '&aEfekt Eksplozji'
     lore:
-    - '&7Right-Click to place.'
+    - '&7Prawy przycisk myszy by postawić.'
   magic_crit:
-    displayname: '&aMagic Crit particle'
+    displayname: '&aEfekt Magicznych obrażeń krytycznych'
     lore:
-    - '&7Right-Click to place.'
+    - '&7Prawy przycisk myszy by postawić.'
   witch:
-    displayname: '&aWitch particle'
+    displayname: '&aEfekt Wiedźmy'
     lore:
-    - '&7Right-Click to place.'
+    - '&7Prawy przycisk myszy by postawić.'
   splash:
-    displayname: '&aSplash particle'
+    displayname: '&aEfekt Rozbryzgu'
     lore:
-    - '&7Right-Click to place.'
+    - '&7Prawy przycisk myszy by postawić.'
   cloud:
-    displayname: '&aCloud particle'
+    displayname: '&aEfekt Chmury'
     lore:
-    - '&7Right-Click to place.'
+    - '&7Prawy przycisk myszy by postawić.'
   portal:
-    displayname: '&aPortal particle'
+    displayname: '&aEfekt Portalu'
     lore:
-    - '&7Right-Click to place.'
+    - '&7Prawy przycisk myszy by postawić.'
   firework_spark:
-    displayname: '&aFirework Spark particle'
+    displayname: '&aEfekt Iskry fajerwerki'
     lore:
-    - '&7Right-Click to place.'
+    - '&7Prawy przycisk myszy by postawić.'
   redstone:
-    displayname: '&aRedstone particle'
+    displayname: '&aEfekt Redstone'a'
     lore:
-    - '&7Right-Click to place.'
+    - '&7Prawy przycisk myszy by postawić.'
   snowball_poof:
-    displayname: '&aSnowball Poof particle'
+    displayname: '&aEfekt Rozbijającej się śnieżki'
     lore:
-    - '&7Right-Click to place.'
+    - '&7Prawy przycisk myszy by postawić.'
 gamemode:
-  solo: SOLO
-  team: TEAM
+  solo: Jednoosobowy
+  team: Drużynowy
