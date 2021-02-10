@@ -103,31 +103,31 @@ main-commands:
     disabled: "&aChat ustawiony jak publiczny"
 
   create:
-    created: '[{"text":"You have created the party %party%.\n","color":"aqua","bold":true},{"text":"Type ","color":"aqua","bold":false},{"text":"/party invite","color":"gray","clickEvent":{"action":"suggest_command","value":"/party invite "}},{"text":" to invite your friend.","color":"aqua"}]'
-    created-fixed: "&b&lYou have created the fixed party %party%"
-    name-already-exists: "&cThe party name %party% already exists, choose a different name"
-    name-too-long: "&cThe party name is too long!"
-    name-too-short: "&cThe party name is too short!"
-    invalid-name: "&cInvalid characters. Use: a-Z or 0-9."
+    created: '[{"text":"Stworzyłeś party %party%.\n","color":"aqua","bold":true},{"text":"Type ","color":"aqua","bold":false},{"text":"/party invite","color":"gray","clickEvent":{"action":"suggest_command","value":"/party invite "}},{"text":" by zaprosić twojego przyjaciela.","color":"aqua"}]'
+    created-fixed: "&b&lStworzyłeś stałe party %party%"
+    name-already-exists: "&cAktualna nazwa party %party% już istnieje, wybierz inną nazwę"
+    name-too-long: "&cNazwa party jest za długa!"
+    name-too-short: "&cNazwa party jest za krótka!"
+    invalid-name: "&cNieprawidłowe znaki. Użyj: a-Z lub 0-9."
     censored: "&cThe party name contains censored words!"
 
   delete:
-    deleted: "&aParty %party% deleted"
-    deleted-silently: "&aParty %party% deleted silently"
-    broadcast: "&6&lYour party has been deleted"
+    deleted: "&aParty %party% zostało usunięte"
+    deleted-silently: "&aParty %party% zostało usunięte w sposób  cichy"
+    broadcast: "&6&lTwoje party zostało usunięte"
 
   deny:
-    no-request: "&cYou have not pending request"
-    no-exists: "&cThe request doesn't exist anymore"
-    multiple-requests: "&cChoose the request that you want deny:"
-    multiple-requests-party: '[{"text":"%party%","color":"aqua"},{"text":" - Click here to deny","color":"gray","clickEvent":{"action":"run_command","value":"/%run_command% %party%"},"hoverEvent":{"action":"show_text","value":{"text":"","extra":[{"text":"Deny the request","color":"gold"}]}}}]'
-    multiple-requests-player: '[{"text":"%player%","color":"aqua"},{"text":" - Click here to deny","color":"gray","clickEvent":{"action":"run_command","value":"/%run_command% %player%"},"hoverEvent":{"action":"show_text","value":{"text":"","extra":[{"text":"Deny the request","color":"gold"}]}}}]'
+    no-request: "&cNie masz oczekującego zaproszenia"
+    no-exists: "&cProśba już nie istnieje"
+    multiple-requests: "&cWybierz zaproszenie które chcesz usunąć:"
+    multiple-requests-party: '[{"text":"%party%","color":"aqua"},{"text":" - Kliknij tutaj by odrzucić","color":"gray","clickEvent":{"action":"run_command","value":"/%run_command% %party%"},"hoverEvent":{"action":"show_text","value":{"text":"","extra":[{"text":"Zaproszenie do odrzucenia","color":"gold"}]}}}]'
+    multiple-requests-player: '[{"text":"%player%","color":"aqua"},{"text":" - Kliknij tutaj by odrzucić","color":"gray","clickEvent":{"action":"run_command","value":"/%run_command% %player%"},"hoverEvent":{"action":"show_text","value":{"text":"","extra":[{"text":"Zaproszenie do odrzucenia","color":"gold"}]}}}]'
 
   ignore:
-    start-ignore: "&7Ignoring %party% invites"
-    stop-ignore: "&7You stopped ignoring %party%"
+    start-ignore: "&7Ignorowanie zaproszeń %party%"
+    stop-ignore: "&7Przestałeś ignorować zaproszenia %party%"
     ignore-list:
-      header: "&b&lList ignored parties:"
+      header: "&b&lLista ignorowanych party:"
       party-prefix: "&c"
       separator: "&7, "
       empty: "&7None"
@@ -143,47 +143,47 @@ main-commands:
     # => %online_number%       = Number of online players
     content:
     - "&b============ &l%party%'s Info &r&b============"
-    - "&b&lDescription&7: %desc%"
-    - "&bLeader&7: %list_rank_leader%"
-    - "&bMods&7: %list_rank_moderator%"
-    - "&bMembers&7: %list_rank_member%"
-    - "&bOnline players&7: %online_number%"
+    - "&b&lOpis&7: %desc%"
+    - "&bLider&7: %list_rank_leader%"
+    - "&bMody&7: %list_rank_moderator%"
+    - "&bUżytkownicy&7: %list_rank_member%"
+    - "&bUżytkownicy online&7: %online_number%"
 
   invite:
-    sent: "&bYou invited %player% in your party"
-    player-invited: '[{"text":"&b%player% has invited you to the party %party%.\n&bDo you want "},{"text":"&a&laccept","clickEvent":{"action":"run_command","value":"/party accept %party%"},"hoverEvent":{"action":"show_text","value":{"text":"","extra":[{"text":"&6Accept the invitation"}]}}},{"text":" &bor "},{"text":"&c&ldeny","clickEvent":{"action":"run_command","value":"/party deny %party%"},"hoverEvent":{"action":"show_text","value":{"text":"","extra":[{"text":"&6Deny the invitation"}]}}},{"text":"&b?\n&bYou can use &7/party <accept/deny> &bto choose."}]'
+    sent: "&bZaprosiłeś gracza: %player% do twojego party."
+    player-invited: '[{"text":"&b%player% został zaproszony do twojego party %party%.\n&bCzy chcesz "},{"text":"&a&laccept","clickEvent":{"action":"run_command","value":"/party accept %party%"},"hoverEvent":{"action":"show_text","value":{"text":"","extra":[{"text":"&6Akceptuj zaproszenie"}]}}},{"text":" &bor "},{"text":"&c&ldeny","clickEvent":{"action":"run_command","value":"/party deny %party%"},"hoverEvent":{"action":"show_text","value":{"text":"","extra":[{"text":"&6Deny the invitation"}]}}},{"text":"&b?\n&bTeraz możesz &7/party <zaakceptować/odrzucić>."}]'
     accept:
-      broadcast: "&b&l%player% joined the party"
-      accepted: "&aYou accepted the party invite"
-      receipt: "&a%player% accepted your invite"
+      broadcast: "&b&l%player% dołączył do party"
+      accepted: "&aZaakceptowałeś zaproszenie do party"
+      receipt: "&a%player% zaakceptował/a zaproszenie do twojego party"
     deny:
       broadcast: ""
-      denied: "&aYou denied the party invite"
-      receipt: "&a%player% denied your invite"
+      denied: "&aOdrzuciłeś zaproszenie do party"
+      receipt: "&a%player% odrzucił twoje zaproszenie"
     timeout:
-      no-response: "&7%player% didn't accept the party invite"
-      timeout: "&7You didn't accept the party invite to %party%"
+      no-response: "&7%player% nie zaakceptował twojego zaproszenia, do party"
+      timeout: "&7Nie przyjąłeś zaproszenia od gracza do %party%"
     revoke:
-      sent-revoked: "&7Revoked invite sent to %player%"
-      player-invite-revoked: "&7Invite received from %party% has been revoked"
+      sent-revoked: "&7Zaproszenie dla %player% zostało odwołane"
+      player-invite-revoked: "&7Zaproszenie do party otrzymane do %party% zostało odrzucone."
     cooldown:
-      global: "&cYou need to wait %seconds% seconds before invite another player"
-      individual: "&cYou need to wait %seconds% seconds before invite again the same player"
-    player-offline: "&cYou can invite only online players"
-    player-no-permission: "&c%player% doesn't have the permission to join"
-    player-in-party: "&c%player% is already in a party"
-    already-invited: "&c%player% was already invited"
-    invite-yourself: "&cYou cannot invite yourself"
-    failed: "&cFailed to invite the player %player%"
+      global: "&cMusisz zaczekać %seconds% sekund zanim zaprosisz kolejne osoby"
+      individual: "&cMusisz zaczekać %seconds% sekund zanim zaprosisz ponownie tego samego gracza"
+    player-offline: "&cMożesz dodać tylko graczy którzy są online"
+    player-no-permission: "&c%player% nie ma permisji by dołączyć"
+    player-in-party: "&c%player% jest już w party"
+    already-invited: "&c%player% ma już zaproszenie"
+    invite-yourself: "&cNie możesz sam siebie zaprosić"
+    failed: "&cNiepowodzenie zaproszenie gracza: %player%"
 
   kick:
-    sent: "&aYou kicked %player% from the party!"
-    player-kicked: "&bYou have been kicked from %party%"
-    broadcast: "&b&l%player% has been kicked from the party"
-    broadcast-disband: "&b&lThe party has been disbanded because the leader got kicked"
-    broadcast-leader-changed: "&b&lThe leader has been kicked from the party, the new leader is %player%"
-    player-higher-rank: "&cYou cannot kick your superior!"
-    player-not-in-party: "&c%player% is not in your party"
+    sent: "&aWyrzuciłeś %player% z twojego party!"
+    player-kicked: "&bZostałeś wyrzucony z tego party: %party%"
+    broadcast: "&b&l%player% został wyrzucony z party"
+    broadcast-disband: "&b&lParty zostało rozwiązane dlatego że lider został wyrzucony"
+    broadcast-leader-changed: "&b&lLider został wyrzucony z party, nowym liderem/ką został %player%"
+    player-higher-rank: "&cNie możesz wyrzucić osoby z wyższymy permisjami!"
+    player-not-in-party: "&c%player% nie jest w twoim party"
     players-conflict:
       # [Special tags]
       # => %username%                       = The name of the player
@@ -192,36 +192,36 @@ main-commands:
       # => %number%                         = The number of the player
       # => %lastloginapi_last_logout_date%  = The last logout date (See LastLoginAPI plugin)
       content:
-      - "&cWe have found some players with that name:"
+      - "&cZnaleźliśmy paru graczy z taką nazwą:"
       - "%list_players%"
-      - "&cUse '&7/party kick <username> <number>&c' to kick the right player"
-      player: '{"text":"","extra":[{"text":"[%number%] ","color":"gray"},{"text":"%username%","color":"gold"},{"text":" [","color":"gray"},{"text":"%party%","color":"aqua"},{"text":"]: last login %lastloginapi_last_logout_date%","color":"gray"}],"clickEvent":{"action":"run_command","value":"/party kick %username% %number%"},"hoverEvent":{"action":"show_text","value":{"text":"Kick this player","color":"gold"}}}'
+      - "&cUżyj '&7/party kick <użytkownik> <numer>&c' aby prawidłowo wyrzucić gracza"
+      player: '{"text":"","extra":[{"text":"[%number%] ","color":"gray"},{"text":"%username%","color":"gold"},{"text":" [","color":"gray"},{"text":"%party%","color":"aqua"},{"text":"]: last login %lastloginapi_last_logout_date%","color":"gray"}],"clickEvent":{"action":"run_command","value":"/party kick %username% %number%"},"hoverEvent":{"action":"show_text","value":{"text":"By wyrzucić tego gracza","color":"gold"}}}'
 
   leave:
-    left: "&b&lYou left the party %party%"
-    broadcast: "&b&l%player% left the party"
-    party-disbanded: "&6&lThe party has been disbanded because the leader left"
-    leader-changed: "&b&lThe leader left the party, the new leader is %player%"
+    left: "&b&lOpuściłeś to party: %party%"
+    broadcast: "&b&l%player% opuścił/a party"
+    party-disbanded: "&6&lParty zostało rozwiązane ponieważ lider opuścił party."
+    leader-changed: "&b&lLeader wyszedł z party, nowym liderem jest: %player%"
 
   p:
     # [Special tags]
     # => %seconds%   = Remaining time in seconds
-    cooldown: "&cYou still have to wait %seconds% seconds"
-    censored: "&cThe message contains censored words!"
-    muted: "&cYou are muted!"
+    cooldown: "&cMusisz jeszcze poczekać %seconds% sekund"
+    censored: "&cWiadomość zawiera ocenzurowanych słów!"
+    muted: "&cJesteś wyciszony!"
 
   rank:
     # [Special tags]
     # => %rank_name%   = Rank wrote by the player
-    changed: "&a%player% rank changed into %rank_name%"
+    changed: "&a%player% ranga została zmieniona na %rank_name%"
     broadcast: ""
-    wrong-rank: "&cRank '%rank_name%' doesn't exist!"
-    same-rank: "&c%player% is already %rank_name%!"
-    low-rank: "&cYou cannot edit players with an equivalent or higher rank than yours!"
-    to-higher-rank: "&cYou cannot promote to a rank equivalent or higher than yours!"
-    fixed-leader: "&cYou cannot make someone a leader of a fixed party!"
-    changing-yourself: "&cYou cannot change yourself rank!"
-    player-not-in-party: "&c%player% is not in your party"
+    wrong-rank: "&cRanga '%rank_name%' jest niepoprawna!"
+    same-rank: "&c%player% posiada tą samą rangę %rank_name%!"
+    low-rank: "&cNie możesz edytować uprawnień graczy z równą lub wyższą rangą niż twoja.!"
+    to-higher-rank: "&cNie możesz awansować gracza na stopień równy lub wyższy niż twój.!"
+    fixed-leader: "&cNie możesz ustawić nowego lidera, stałego party!"
+    changing-yourself: "&cNie możesz edytować własnej rangi!"
+    player-not-in-party: "&c%player% nie jest w twoim party"
     players-conflict:
       # [Special tags]
       # => %username%                       = The name of the player
@@ -230,31 +230,31 @@ main-commands:
       # => %number%                         = The number of the player
       # => %lastloginapi_last_logout_date%  = The last logout date (See LastLoginAPI plugin)
       content:
-        - "&cWe have found some players with that name:"
+        - "&cZnaleźliśmy parę użytkowników z taką nazwę:"
         - "%list_players%"
-        - "&cUse '&7/party rank <username> <rank> <number>&c' to change rank of the right player"
+        - "&cUżyj '&7/party rank <użytkownik> <ranga> <numer>&c' aby zmienić prawidłowo rangę gracza"
       player: '{"text":"","extra":[{"text":"[%number%] ","color":"gray"},{"text":"%username%","color":"gold"},{"text":" [","color":"gray"},{"text":"%party%","color":"aqua"},{"text":"]: last login %lastloginapi_last_logout_date%","color":"gray"}],"clickEvent":{"action":"run_command","value":"/party rank %username% %rank% %number%"},"hoverEvent":{"action":"show_text","value":{"text":"Change rank of this player","color":"gold"}}}'
 
   rename:
     # [Special tags]
     # => %old%   = Old party name
-    renamed: "&aThe party %old% has been renamed into %party%"
-    broadcast: "&6Your party has been renamed into %party%!"
+    renamed: "&aStare party: %old% zmieniło nazwę na: %party%"
+    broadcast: "&6Twoje party zmieniło nazwę na: %party%!"
     # [Special tags]
     # => %seconds%   = Remaining time in seconds
-    cooldown: "&cYou have to wait %seconds% seconds!"
+    cooldown: "&cMusisz zaczekać %seconds% sekund!"
 
   spy:
-    enabled: "&7Now you are a spy!"
-    disabled: "&7You are no longer a spy"
+    enabled: "&7Jesteś teraz szpiegiem!"
+    disabled: "&7Nie jesteś już szpiegiem"
 
   version:
     # [Special tags]
     # => %version%    = Parties version
     # => %newversion% = Latest Parties version
     # => %platform%   = Platform of the plugin (e.g. Bukkit, BungeeCord)
-    updated: "&b&lParties &b%version% &7(%platform%) - Developed by &6AlessioDP"
-    outdated: "&b&lParties &b%version% &7(%platform%) - Developed by &6AlessioDP\n&aNew version found: &2%newversion%"
+    updated: "&b&lParty &b%version% &7(%platform%) - Developed by &6AlessioDP"
+    outdated: "&b&lParty &b%version% &7(%platform%) - Developed by &6AlessioDP\n&aNew version found: &2%newversion%"
 
 
 # / =============================== \
@@ -262,37 +262,37 @@ main-commands:
 # \ =============================== /
 additional-commands:
   ask:
-    sent: "&aJoin request sent to %party%"
-    received: '[{"text":"&b%player% want to join your party.\n&bDo you want "},{"text":"&a&laccept","clickEvent":{"action":"run_command","value":"/party accept %player%"},"hoverEvent":{"action":"show_text","value":{"text":"","extra":[{"text":"&6Accept the request"}]}}},{"text":" &bor "},{"text":"&c&ldeny","clickEvent":{"action":"run_command","value":"/party deny %player%"},"hoverEvent":{"action":"show_text","value":{"text":"","extra":[{"text":"Deny the invitation","color":"gold"}]}}},{"text":"&b?\n&bYou can use &7/party <accept/deny> %player% &bto choose."}]'
+    sent: "&aŻądanie dołączenia wysłane do %party%"
+    received: '[{"text":"&b%player% chce dołączyć do tego party.\n&bCzy chcesz "},{"text":"&a&lakceptować","clickEvent":{"action":"run_command","value":"/party accept %player%"},"hoverEvent":{"action":"show_text","value":{"text":"","extra":[{"text":"&6Akceptuj zaproszenie"}]}}},{"text":" &lub "},{"text":"&c&lodrzuć","clickEvent":{"action":"run_command","value":"/party deny %player%"},"hoverEvent":{"action":"show_text","value":{"text":"","extra":[{"text":"Odrzucić zaproszenie","color":"gold"}]}}},{"text":"&b?\n&bMożesz użyć &7/party <accept/deny> %player% &bdo wyboru."}]'
     accept:
-      broadcast: "&b&l%player% joined the party"
-      accepted: "&aYou accepted the ask request"
-      receipt: "&a%party% accepted your ask request"
+      broadcast: "&b&l%player% dołączył do party"
+      accepted: "&aZaakceptowałeś prośbę dołączenia do twojego party"
+      receipt: "&a%party% zaakceptował zaproszenie do twojego party"
     deny:
       broadcast: ""
-      denied: "&aYou denied the %player% ask request"
-      receipt: "&a%party% denied your ask request"
+      denied: "&aOdrzuciłeś prośbę gracza %player%"
+      receipt: "&a%party% odrzucił twoją prośbę"
     timeout:
-      no-response: "&7%party% didn't accept the ask request"
+      no-response: "&7%party% nie zaakceptował prośby o pomoc"
     cooldown:
       # [Special tags]
       # => %seconds%          = Remaining time in seconds
-      global: "&cYou need to wait %seconds% seconds before ask to another party"
-      individual: "&cYou need to wait %seconds% seconds before ask to the same party"
+      global: "&cMusisz zaczekać %seconds% sekund zanim poprosisz o dołączenie do innego party"
+      individual: "&cMusisz zaczekać %seconds% sekund zanim poprosisz o dołączenie do tego party"
 
   claim:
-    claimed: "&aGranted permission to the party"
-    removed: "&aRemoved permission to the party"
-    no-manager: "&cYou need to be the manager of the claim"
-    claim-no-exists: "&cClaim not found"
+    claimed: "&aUdzielił permisji do party"
+    removed: "&aRZabrał permisje do party"
+    no-manager: "&cMusisz być osobą zarządzającą party"
+    claim-no-exists: "&cPermisja nie odnaleziona"
 
   color:
-    info: "&bYour party color is: %color_code%%color_command%"
-    empty: "&bYour party doesn't have a color"
-    changed: "&bParty color changed into %color_command%"
-    removed: "&bParty color removed"
+    info: "&bKolor twojego party to: %color_code%%color_command%"
+    empty: "&bTwoje party nie ma koloru"
+    changed: "&bKolor party został zmieniony na %color_command%"
+    removed: "&bKolor party został wycofany"
     broadcast: ""
-    wrong-color: "&cColor not found. You can select: red, green or special!"
+    wrong-color: "&cKolor nie znaleziony. Możesz wybrać zielony, czerwony lub specjalny!"
 
   debug:
     config:
