@@ -23,4 +23,4 @@ Messages:
     - '&8- &6/Voucher give <voucher> [amount] [player] [arguments] &3Gives a player a voucher.'
     - '&8- &6/Voucher giveAll <voucher> [amount] [arguments] &3Gives all players a voucher.'
     - '&8- &6/Voucher open [page] &3Opens a GUI so you can get vouchers easily.'
-    - '&8- &6/Voucher reload &3Reloaded the configuration files.'
+    - '&8- &6/Voucher reload &3Reloaded the configuration files.'fwef
